@@ -20,20 +20,86 @@
 		border: 0;
 	}
 
+	.wrapper {
+     width: 100%;
+	 table-layout: fixed;
+     background-color: #cccccc;
+	 padding-bottom: 3.75rem;
+	 border-spacing: 0;
+	 font-family:sans-serif;
+	 color: #171a1b;
+	}
+.main{
+	background-color: #ffffff;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 37.5rem;
+}
+.two-columns {
+	text-align: center;
+	font-size: 0;
+	margin:0;
+
+}
+
+.two-columns .column {
+	width: 100%;
+	max-width: 18.75rem;
+	display: inline-block;
+	vertical-align: top;
+     text-align:center ; 
+}
 </style>
 </head>
 <body>
 
+	<div class="wrapper">
 
 
+<table class="main" width="100%">
 <!-- TOP BORDER -->
+ <tr>
+	<td height="8" style="background-color: #171a1b;">
 
+	</td>
+ </tr>
 
 <!-- LOGO SECTION -->
-
+<tr>
+	<td style="padding:0.875rem 0 0.25rem">
+		<table width="100%">
+			<tr>
+				<td class="two-columns ">
+					<table class="column">
+						<tr>
+							<td style="padding: 0 3.875rem 0.625rem">
+								<a href="https://github.com/patxiarana"><img src="img/modern.jpg" alt="logo" width="180" title="Modern Logo"></a>
+							</td>
+						</tr>
+						<table class="column">
+							<tr>
+								<td style="padding:0.625 4.5rem" >
+									<a href="#"><img src="img/black-facebook.png" alt="youtube-img" width="30"></a>
+									<a href="#"><img src="img/black-twitter.png" alt="twitter-img" width="30"></a>
+									<a href="#"><img src="img/black-instagram.png" alt="instagram-img" width="30"></a>
+									<a href="#"><img src="img/black-linkedin.png" alt="linkedi-img" width="30"></a>
+									<a href="#"><img src="img/black-youtube.png" alt="youtube-img" width="30"></a>
+								</td>
+							</tr>
+						</table>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
 
 <!-- BANNER IMAGE -->
-
+<tr>
+<td>
+	<a href="#"><img src="img/banner.jpg" alt="banner" width="600" style="width:100%"></a>
+</td>
+</tr>
 
 <!-- THREE COLUMN SECTION -->
 
@@ -45,8 +111,9 @@
 
 
 <!-- FOOTER SECTION -->
+</table>
 
-
+</div>
 
 </body>
 </html>
@@ -106,8 +173,8 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script>
+<script> /*
 	$(this).delay(2000).queue(function() { /*-- CHANGE DELAY TIME --*/
-		$("#socialModal").modal('show');
-	});
+/*		$("#socialModal").modal('show');
+	}) */
 </script>
